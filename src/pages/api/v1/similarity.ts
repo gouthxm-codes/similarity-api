@@ -67,7 +67,6 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     }
 
     return res.status(500).json({ error: error });
-    console.log(error);
   }
 };
 
